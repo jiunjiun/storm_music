@@ -41,5 +41,44 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  # livereload
+  gem 'guard'
+  gem 'guard-livereload'
+
+  # gem "pry-plus"
+  gem "hirb", :require => false
+  gem "hirb-unicode", :require => false
+
+  gem "rspec-rails", "~> 2.14.0"
+  gem "factory_girl_rails", "~> 4.2.1"
+
+  gem "pry-remote"
 end
+
+# debug
+gem "pry"
+gem "pry-rails"
+gem "awesome_print", :require => false
+
+# user access
+gem 'devise'
+
+# omniauth
+gem 'omniauth'
+gem 'omniauth-soundcloud', '~> 1.0.0'
+
+# config yml
+gem 'settingslogic'
+
+#google analytics
+gem 'google-analytics-rails'
+
+# style
+gem "font-awesome-rails"
+gem 'bootstrap-sass'
+gem 'haml'
+
+gem 'nprogress-rails'
+
 
