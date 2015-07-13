@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  devise_for :users
-  get 'home/index'
+  devise_for :users, path: "", path_names: { sign_in: 'sign_in', sign_out: 'logout', password: 'secret' }, controllers: {omniauth_callbacks: "users/omniauth_callbacks"}
+  root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
