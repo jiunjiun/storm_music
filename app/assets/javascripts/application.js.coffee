@@ -17,8 +17,10 @@
 //= require nprogress
 //= require nprogress-turbolinks
 //= require bootstrap
+//= require material
 
-initialize = ->
+$ ->
+  initialize = ->
 
-$(document).on('page:load', initialize)
-$(document).ready(initialize)
+  $(document).on('page:load', initialize)
+  $(document).ready(initialize)

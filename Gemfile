@@ -84,5 +84,6 @@ gem 'bootstrap-sass'
 gem 'haml'
 
 gem 'nprogress-rails'
+gem 'material_design_lite-rails'
 
 
