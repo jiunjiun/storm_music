@@ -68,6 +68,10 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-soundcloud', '~> 1.0.0'
 
+# User role
+gem 'rolify'
+gem 'cancancan'
+
 # config yml
 gem 'settingslogic'
 
