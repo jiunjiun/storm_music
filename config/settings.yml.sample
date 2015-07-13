@@ -1,0 +1,14 @@
+defaults: &defaults
+  soundcloud:
+    CLIENT_ID: ""
+    CLIENT_SECRET: ""
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+
+production:
+  <<: *defaults
